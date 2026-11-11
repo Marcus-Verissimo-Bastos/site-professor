@@ -1,0 +1,97 @@
+/* Modern High-Performance Sports Styles for JP Futevôlei */
+
+:root {
+    --primary: #00F5A0;
+    --primary-hover: #00D88C;
+    --accent-cyan: #00D9F5;
+    --dark-bg: #060A12;
+    --card-bg: #0C1322;
+    --card-border: rgba(22, 35, 59, 0.8);
+    --border-glow: rgba(0, 245, 160, 0.2);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #060A12;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #16233B;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #00F5A0;
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--dark-bg);
+    background-image: 
+        radial-gradient(at 0% 0%, rgba(0, 245, 160, 0.07) 0px, transparent 45%),
+        radial-gradient(at 100% 100%, rgba(0, 217, 245, 0.05) 0px, transparent 45%),
+        radial-gradient(at 50% 50%, rgba(16, 185, 129, 0.02) 0px, transparent 60%);
+    background-attachment: fixed;
+}
+
+/* Text Selection */
+::selection {
+    background-color: #00F5A0;
+    color: #060A12;
+}
+
+/* Custom details accordion styling */
+details > summary {
+    list-style: none;
+}
+details > summary::-webkit-details-marker {
+    display: none;
+}
+
+details[open] {
+    border-color: rgba(0, 245, 160, 0.4);
+    background: rgba(12, 19, 34, 0.95);
+    box-shadow: 0 10px 30px -10px rgba(0, 245, 160, 0.08);
+}
+
+/* Floating animation for WhatsApp button pulse */
+@keyframes modernPulse {
+    0%, 100% {
+        box-shadow: 0 10px 25px -5px rgba(0, 245, 160, 0.35), 0 8px 10px -6px rgba(0, 245, 160, 0.25);
+    }
+    50% {
+        box-shadow: 0 20px 35px -5px rgba(0, 245, 160, 0.6), 0 12px 14px -6px rgba(0, 217, 245, 0.4);
+    }
+}
+
+.floating-whatsapp {
+    animation: modernPulse 2.5s infinite ease-in-out;
+}
+
+/* Card hover effects */
+.profile-card {
+    transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s ease;
+}
+
+.profile-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 20px 40px -15px rgba(0, 245, 160, 0.15);
+}
+
+/* Video Player Enhancements */
+.group-video {
+    background-color: #04070c;
+    outline: none;
+}
+
+video::-webkit-media-controls-panel {
+    background-image: linear-gradient(transparent, rgba(6, 10, 18, 0.95));
+}

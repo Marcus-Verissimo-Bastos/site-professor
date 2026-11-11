@@ -1,0 +1,1132 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JP Futevôlei | Professor João Pedro - Vilarejo Beach Ingleses</title>
+    <meta name="description" content="Aulas de Futevôlei em Florianópolis no Vilarejo Beach Ingleses com o professor João Pedro (Jota / jp.tzl). Do iniciante ao avançado, venha virar craque na areia!">
+    <meta name="keywords" content="futevolei ingleses, futevolei florianopolis, professor de futevolei, vilarejo beach, aulas futevolei norte da ilha, joao pedro futevolei">
+    <meta name="author" content="João Pedro Cagliari Corrêa Ornellas">
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="JP Futevôlei | Aulas no Vilarejo Beach - Ingleses">
+    <meta property="og:description" content="Aprenda futevôlei com o professor João Pedro (Jota / jp.tzl) no Norte da Ilha. Agende sua aula experimental!">
+    <meta property="og:image" content="assets/img/joao-pedro-futevolei.jpg">
+
+    <!-- Favicon (SVG Ball) -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%2300F5A0'/><circle cx='50' cy='50' r='44' fill='%23060A12'/><circle cx='50' cy='50' r='20' fill='%2300D9F5'/><polygon points='50,15 60,35 80,35 65,50 72,70 50,56 28,70 35,50 20,35 40,35' fill='%2300F5A0'/></svg>">
+
+    <!-- SEO Schema.org JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SportsClub",
+      "name": "JP Futevôlei - Professor João Pedro",
+      "image": "assets/img/joao-pedro-futevolei.jpg",
+      "telephone": "+55-48-98827-8141",
+      "email": "tiagojoaopedrocorrea@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Vilarejo Beach",
+        "addressLocality": "Ingleses, Florianópolis",
+        "addressRegion": "SC",
+        "addressCountry": "BR"
+      },
+      "description": "Aulas de Futevôlei com o professor João Pedro (Jota / jp.tzl) no Vilarejo Beach Ingleses. Aulas do iniciante ao avançado no Norte da Ilha.",
+      "coach": {
+        "@type": "Person",
+        "name": "João Pedro Cagliari Corrêa Ornellas",
+        "alternateName": ["Jota", "jp.tzl"]
+      }
+    }
+    </script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS (CDN) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        beach: {
+                            deep: '#060A12',
+                            card: '#0C1322',
+                            cardBorder: '#16233B',
+                            accent: '#00F5A0',
+                            neon: '#00F5A0',
+                            cyan: '#00D9F5',
+                            mint: '#10B981',
+                            teal: '#14B8A6'
+                        }
+                    },
+                    fontFamily: {
+                        heading: ['Outfit', 'sans-serif'],
+                        body: ['Plus Jakarta Sans', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="bg-beach-deep text-slate-100 font-body antialiased selection:bg-beach-accent selection:text-white">
+
+    <!-- Top Announcement Bar -->
+    <div class="bg-gradient-to-r from-emerald-600 via-teal-600 to-cyan-600 text-white text-xs sm:text-sm py-2 px-4 text-center font-medium shadow-inner flex items-center justify-center gap-2">
+        <span class="inline-block animate-pulse">🔥</span>
+        <span>Aulas abertas no <strong>Vilarejo Beach Ingleses</strong> (Norte da Ilha)! Agende sua experimental hoje.</span>
+        <a href="#agendamento" class="underline font-bold hover:text-teal-100 transition ml-1 hidden sm:inline">Garantir Vaga &rarr;</a>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="sticky top-0 z-50 backdrop-blur-md bg-beach-deep/90 border-b border-white/10 transition-all duration-300" id="navbar">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <!-- Logo -->
+            <a href="#" class="flex items-center gap-3 group">
+                <div class="w-11 h-11 rounded-2xl bg-gradient-to-tr from-emerald-400 via-teal-400 to-cyan-400 flex items-center justify-center text-slate-950 shadow-lg shadow-emerald-500/25 font-black group-hover:scale-105 transition duration-300">
+                    <i data-lucide="trophy" class="w-6 h-6"></i>
+                </div>
+                <div>
+                    <span class="font-heading font-black text-xl tracking-tight text-white block">JP <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-400">FUTEVÔLEI</span></span>
+                    <span class="text-[11px] text-slate-400 font-semibold tracking-wider uppercase block">Vilarejo Beach • Ingleses</span>
+                </div>
+            </a>
+
+            <!-- Desktop Nav Menu -->
+            <nav class="hidden md:flex items-center gap-7 text-sm font-semibold text-slate-300">
+                <a href="#sobre" class="hover:text-emerald-400 transition">Sobre o Professor</a>
+                <a href="#aulas" class="hover:text-emerald-400 transition">Aulas & Metodologia</a>
+                <a href="#videos" class="hover:text-emerald-400 transition flex items-center gap-1.5">
+                    <span class="w-2 h-2 rounded-full bg-red-500 animate-pulse"></span>
+                    Vídeos
+                </a>
+                <a href="#local" class="hover:text-emerald-400 transition">Vilarejo Beach</a>
+                <a href="#beneficios" class="hover:text-emerald-400 transition">Benefícios</a>
+                <a href="#duvidas" class="hover:text-emerald-400 transition">Dúvidas</a>
+            </nav>
+
+            <!-- Header CTA Button -->
+            <div class="hidden sm:flex items-center gap-3">
+                <a href="https://wa.me/5548988278141?text=Ol%C3%A1%20Jo%C3%A3o%20Pedro!%20Vi%20seu%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20as%20aulas%20de%20futev%C3%B4lei%20no%20Vilarejo%20Beach." target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 bg-gradient-to-r from-emerald-500 to-green-600 hover:from-emerald-400 hover:to-green-500 text-white font-bold px-5 py-2.5 rounded-full text-sm shadow-lg shadow-emerald-500/25 transition transform hover:-translate-y-0.5">
+                    <i data-lucide="message-circle" class="w-4 h-4"></i>
+                    <span>(48) 98827-8141</span>
+                </a>
+            </div>
+
+            <!-- Mobile Hamburger Button -->
+            <button id="mobileMenuBtn" aria-label="Abrir menu" class="md:hidden text-slate-300 hover:text-white p-2 rounded-lg focus:outline-none">
+                <i data-lucide="menu" class="w-7 h-7"></i>
+            </button>
+        </div>
+
+        <!-- Mobile Menu Dropdown -->
+        <div id="mobileMenu" class="hidden md:hidden bg-beach-card border-b border-beach-cardBorder px-6 py-6 space-y-4">
+            <a href="#sobre" class="block text-slate-200 font-semibold py-2 hover:text-emerald-400 border-b border-white/5 mobile-link">Sobre o Professor</a>
+            <a href="#aulas" class="block text-slate-200 font-semibold py-2 hover:text-emerald-400 border-b border-white/5 mobile-link">Aulas & Metodologia</a>
+            <a href="#videos" class="block text-slate-200 font-semibold py-2 hover:text-emerald-400 border-b border-white/5 mobile-link flex items-center justify-between">
+                <span>Vídeos dos Treinos</span>
+                <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-red-500/20 text-red-400">Novo</span>
+            </a>
+            <a href="#local" class="block text-slate-200 font-semibold py-2 hover:text-emerald-400 border-b border-white/5 mobile-link">Vilarejo Beach</a>
+            <a href="#beneficios" class="block text-slate-200 font-semibold py-2 hover:text-emerald-400 border-b border-white/5 mobile-link">Benefícios</a>
+            <a href="#duvidas" class="block text-slate-200 font-semibold py-2 hover:text-emerald-400 border-b border-white/5 mobile-link">Dúvidas</a>
+            <div class="pt-2">
+                <a href="https://wa.me/5548988278141?text=Ol%C3%A1%20Jo%C3%A3o%20Pedro!%20Gostaria%20de%20agendar%20uma%20aula%20de%20futev%C3%B4lei." target="_blank" rel="noopener noreferrer" class="flex items-center justify-center gap-2 w-full bg-emerald-500 text-white font-bold py-3 rounded-xl shadow-lg">
+                    <i data-lucide="message-circle" class="w-5 h-5"></i>
+                    Chamar no WhatsApp
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="relative overflow-hidden pt-12 pb-20 md:pt-20 md:pb-28">
+        <!-- Glow / Background ambient effects -->
+        <div class="absolute -top-40 -left-40 w-96 h-96 bg-emerald-500/10 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="absolute top-1/3 -right-40 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="absolute -bottom-20 left-1/3 w-80 h-80 bg-cyan-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+                
+                <!-- Left Column: Copy & CTAs -->
+                <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                    
+                    <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-xs sm:text-sm font-bold uppercase tracking-wider">
+                        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
+                        Vilarejo Beach • Ingleses • Florianópolis
+                    </div>
+
+                    <h1 class="font-heading font-extrabold text-4xl sm:text-5xl lg:text-6xl tracking-tight leading-[1.1] text-white">
+                        Domine o <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-teal-300 to-cyan-300">Futevôlei</span> e Eleve Seu Jogo na Areia
+                    </h1>
+
+                    <p class="text-slate-300 text-base sm:text-lg lg:text-xl leading-relaxed max-w-2xl mx-auto lg:mx-0">
+                        Aulas personalizadas e dinâmicas com o professor <strong>João Pedro (Jota)</strong>. Metodologia focada na evolução rápida dos seus fundamentos, do zero absoluto ao nível avançado. Venha virar craque!
+                    </p>
+
+                    <!-- CTAs -->
+                    <div class="pt-2 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+                        <a href="https://wa.me/5548988278141?text=Ol%C3%A1%20Jo%C3%A3o%20Pedro!%20Gostaria%20de%20agendar%20minha%20primeira%20aula%20experimental%20no%20Vilarejo%20Beach." target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-gradient-to-r from-emerald-400 via-teal-400 to-cyan-400 hover:from-emerald-300 hover:to-cyan-300 text-slate-950 font-black text-base px-8 py-4 rounded-2xl shadow-xl shadow-emerald-500/25 transition transform hover:-translate-y-1">
+                            <i data-lucide="calendar-check" class="w-5 h-5"></i>
+                            <span>Agendar Aula Experimental</span>
+                        </a>
+
+                        <a href="#sobre" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-beach-card hover:bg-beach-cardBorder border border-white/10 text-slate-200 font-bold text-base px-6 py-4 rounded-2xl transition">
+                            <i data-lucide="user" class="w-5 h-5 text-emerald-400"></i>
+                            <span>Conhecer o Professor</span>
+                        </a>
+                    </div>
+
+                    <!-- Trust Stats Bar -->
+                    <div class="pt-8 border-t border-white/10 grid grid-cols-2 sm:grid-cols-4 gap-4 text-center">
+                        <div class="bg-beach-card/60 backdrop-blur border border-white/5 p-3 rounded-xl">
+                            <div class="text-emerald-400 font-heading font-black text-2xl lg:text-3xl">+2 Anos</div>
+                            <div class="text-xs text-slate-400 font-medium">Prática no Esporte</div>
+                        </div>
+                        <div class="bg-beach-card/60 backdrop-blur border border-white/5 p-3 rounded-xl">
+                            <div class="text-emerald-400 font-heading font-black text-2xl lg:text-3xl">4 Meses</div>
+                            <div class="text-xs text-slate-400 font-medium">Lecionando na Areia</div>
+                        </div>
+                        <div class="bg-beach-card/60 backdrop-blur border border-white/5 p-3 rounded-xl">
+                            <div class="text-emerald-400 font-heading font-black text-2xl lg:text-3xl">100%</div>
+                            <div class="text-xs text-slate-400 font-medium">Prática & Técnica</div>
+                        </div>
+                        <div class="bg-beach-card/60 backdrop-blur border border-white/5 p-3 rounded-xl">
+                            <div class="text-emerald-400 font-heading font-black text-2xl lg:text-3xl">★ 5.0</div>
+                            <div class="text-xs text-slate-400 font-medium">Vilarejo Beach</div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Right Column: Profile Image Card -->
+                <div class="lg:col-span-5 flex justify-center">
+                    <div class="relative w-full max-w-md">
+                        <!-- Ambient gradient ring -->
+                        <div class="absolute -inset-1.5 bg-gradient-to-r from-emerald-400 via-teal-400 to-cyan-400 rounded-3xl blur-lg opacity-40 group-hover:opacity-80 transition duration-1000"></div>
+
+                        <!-- Card Wrapper -->
+                        <div class="relative bg-beach-card rounded-3xl overflow-hidden border border-beach-cardBorder shadow-2xl">
+                            <div class="relative aspect-[4/5] overflow-hidden bg-slate-900">
+                                <img src="assets/img/joao-pedro-futevolei.jpg" alt="Professor João Pedro Cagliari Corrêa Ornellas jogando futevôlei" class="w-full h-full object-cover object-top hover:scale-105 transition duration-700">
+                                
+                                <div class="absolute inset-0 bg-gradient-to-t from-beach-deep via-transparent to-transparent opacity-90"></div>
+
+                                <!-- Floating Badge Top Right -->
+                                <div class="absolute top-4 right-4 bg-beach-deep/80 backdrop-blur-md border border-white/10 px-3 py-1.5 rounded-full flex items-center gap-1.5 text-xs font-bold text-emerald-400 shadow-lg">
+                                    <i data-lucide="flame" class="w-4 h-4 fill-emerald-400 text-emerald-400"></i>
+                                    <span class="text-emerald-400">jp.tzl / Jota</span>
+                                </div>
+
+                                <!-- Floating Badge Bottom Left -->
+                                <div class="absolute bottom-4 left-4 right-4 bg-beach-card/90 backdrop-blur-md border border-white/10 p-4 rounded-2xl shadow-xl">
+                                    <div class="flex items-center justify-between">
+                                        <div>
+                                            <p class="text-xs font-bold uppercase tracking-wider text-emerald-400">Professor & Instrutor</p>
+                                            <h2 class="text-lg font-heading font-bold text-white">João Pedro Cagliari Corrêa</h2>
+                                            <p class="text-xs text-slate-300 flex items-center gap-1 mt-0.5">
+                                                <i data-lucide="map-pin" class="w-3.5 h-3.5 text-cyan-400"></i>
+                                                Vilarejo Beach • Ingleses (Norte da Ilha)
+                                            </p>
+                                        </div>
+                                        <div class="w-12 h-12 rounded-xl bg-cyan-500/20 border border-cyan-500/40 flex items-center justify-center text-cyan-400 shrink-0">
+                                            <i data-lucide="shield-check" class="w-6 h-6"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION: SOBRE MIM (APRESENTAÇÃO DO PROFESSOR) -->
+    <section id="sobre" class="py-20 bg-beach-card/40 border-y border-white/5 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Quote & Story -->
+                <div class="lg:col-span-7 space-y-6">
+                    <div class="inline-flex items-center gap-2 text-emerald-400 text-sm font-bold uppercase tracking-widest">
+                        <i data-lucide="sparkles" class="w-4 h-4"></i>
+                        Apresentação Oficial
+                    </div>
+
+                    <h2 class="font-heading font-extrabold text-3xl sm:text-4xl text-white tracking-tight">
+                        "Venha fazer uma aula comigo, garanto te deixar <span class="text-emerald-400 underline decoration-cyan-400 decoration-4 underline-offset-4">craque</span> neste esporte!"
+                    </h2>
+
+                    <!-- Exact user text highlighted as a premium featured quote card -->
+                    <div class="bg-gradient-to-br from-beach-card to-beach-deep border-l-4 border-emerald-400 border-y border-r border-white/10 p-6 sm:p-7 rounded-2xl shadow-xl space-y-3">
+                        <div class="flex items-center gap-3">
+                            <span class="text-4xl leading-none text-emerald-400 font-serif">“</span>
+                            <span class="text-xs uppercase tracking-wider text-slate-400 font-bold">Mensagem do Professor</span>
+                        </div>
+                        <p class="text-slate-200 text-lg sm:text-xl font-medium leading-relaxed italic">
+                            Olá, meu nome é <strong>João Pedro Cagliari Corrêa Ornellas</strong>, mais conhecido como <strong>Jota</strong> ou <strong>jp.tzl</strong>, sou professor e ajudante de futevôlei do <strong>Vilarejo Beach</strong>, pratico o esporte há mais ou menos 2 anos e dou aula faz 4 meses!! Venha fazer uma aula comigo, garanto te deixar craque neste esporte!
+                        </p>
+                        <div class="pt-2 flex items-center justify-between text-xs text-slate-400">
+                            <span class="font-semibold text-emerald-400">— João Pedro (Jota / @jp.tzl)</span>
+                            <span>Florianópolis - SC</span>
+                        </div>
+                    </div>
+
+                    <p class="text-slate-300 leading-relaxed text-base">
+                        O futevôlei é mais que um esporte de praia: é estilo de vida, superação, preparo físico e pura conexão. Minhas aulas são pensadas para você que quer começar do zero sem vergonha, ou para quem já joga e quer ter mais confiança no peito, na cabeça, no ataque e no posicionamento tático dentro de quadra.
+                    </p>
+
+                    <!-- Features checklist -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+                        <div class="flex items-start gap-3">
+                            <div class="w-8 h-8 rounded-lg bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400 shrink-0 mt-0.5">
+                                <i data-lucide="check-circle" class="w-4 h-4"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-white text-sm">Didática Paciente</h3>
+                                <p class="text-xs text-slate-400">Atenção total aos seus limites e evolução no seu ritmo.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-3">
+                            <div class="w-8 h-8 rounded-lg bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400 shrink-0 mt-0.5">
+                                <i data-lucide="check-circle" class="w-4 h-4"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-white text-sm">Correção de Fundamentos</h3>
+                                <p class="text-xs text-slate-400">Ajuste de peito, ombro, chapa, cabeça e pingo.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-3">
+                            <div class="w-8 h-8 rounded-lg bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400 shrink-0 mt-0.5">
+                                <i data-lucide="check-circle" class="w-4 h-4"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-white text-sm">Energia & Motivação</h3>
+                                <p class="text-xs text-slate-400">Treinos animados, descontraídos e com clima de amizade.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-3">
+                            <div class="w-8 h-8 rounded-lg bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400 shrink-0 mt-0.5">
+                                <i data-lucide="check-circle" class="w-4 h-4"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-white text-sm">Estrutura Top no Vilarejo</h3>
+                                <p class="text-xs text-slate-400">Melhores quadras de areia de Ingleses e Norte da Ilha.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Info Cards & Contact Quick Access -->
+                <div class="lg:col-span-5 space-y-4">
+                    <div class="bg-beach-card border border-beach-cardBorder rounded-3xl p-6 sm:p-8 space-y-6 shadow-2xl relative overflow-hidden">
+                        <div class="absolute -top-16 -right-16 w-36 h-36 bg-emerald-500/10 rounded-full blur-2xl"></div>
+
+                        <h3 class="font-heading font-extrabold text-xl text-white flex items-center gap-2">
+                            <i data-lucide="id-card" class="w-5 h-5 text-emerald-400"></i>
+                            Ficha do Professor
+                        </h3>
+
+                        <div class="space-y-4 text-sm">
+                            <div class="flex items-center justify-between pb-3 border-b border-white/5">
+                                <span class="text-slate-400">Nome Completo:</span>
+                                <span class="font-semibold text-white">João Pedro C. Corrêa Ornellas</span>
+                            </div>
+
+                            <div class="flex items-center justify-between pb-3 border-b border-white/5">
+                                <span class="text-slate-400">Apelido / Redes:</span>
+                                <span class="font-semibold text-emerald-400">Jota | @jp.tzl</span>
+                            </div>
+
+                            <div class="flex items-center justify-between pb-3 border-b border-white/5">
+                                <span class="text-slate-400">Função:</span>
+                                <span class="font-semibold text-white">Professor & Ajudante</span>
+                            </div>
+
+                            <div class="flex items-center justify-between pb-3 border-b border-white/5">
+                                <span class="text-slate-400">Arena Parceira:</span>
+                                <span class="font-semibold text-white">Vilarejo Beach</span>
+                            </div>
+
+                            <div class="flex items-center justify-between pb-3 border-b border-white/5">
+                                <span class="text-slate-400">Região:</span>
+                                <span class="font-semibold text-white">Ingleses, Florianópolis - SC</span>
+                            </div>
+
+                            <div class="flex items-center justify-between pb-3 border-b border-white/5">
+                                <span class="text-slate-400">WhatsApp:</span>
+                                <a href="https://wa.me/5548988278141" target="_blank" class="font-bold text-emerald-400 hover:underline">(48) 98827-8141</a>
+                            </div>
+
+                            <div class="flex flex-col gap-1 pb-3 border-b border-white/5">
+                                <span class="text-slate-400">E-mail:</span>
+                                <a href="mailto:tiagojoaopedrocorrea@gmail.com" class="font-medium text-cyan-300 break-all hover:underline">tiagojoaopedrocorrea@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <a href="https://wa.me/5548988278141?text=Ol%C3%A1%20Jota!%20Quero%20fazer%20uma%20aula%20de%20futev%C3%B4lei%20com%20voc%C3%AA." target="_blank" rel="noopener noreferrer" class="w-full flex items-center justify-center gap-2 bg-gradient-to-r from-emerald-400 via-teal-400 to-cyan-400 hover:from-emerald-300 hover:to-cyan-300 text-slate-950 font-black py-3.5 px-6 rounded-2xl shadow-lg shadow-emerald-500/25 transition">
+                            <i data-lucide="message-circle" class="w-5 h-5"></i>
+                            Conversar com o Jota Agora
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION: AULAS & NÍVEIS -->
+    <section id="aulas" class="py-20 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16 space-y-3">
+                <div class="inline-flex items-center gap-2 text-emerald-400 text-sm font-bold uppercase tracking-widest">
+                    <i data-lucide="layers" class="w-4 h-4"></i>
+                    Para Todos os Níveis
+                </div>
+                <h2 class="font-heading font-extrabold text-3xl sm:text-5xl text-white tracking-tight">
+                    Como Funcionam as Nossas Aulas
+                </h2>
+                <p class="text-slate-300 text-base sm:text-lg">
+                    Não importa se você nunca chutou uma bola ou se já joga altinha na praia. Treinamos a técnica correta para você ganhar confiança rápida na quadra.
+                </p>
+            </div>
+
+            <!-- 3 Grid Cards -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <!-- Card 1: Iniciante -->
+                <div class="bg-beach-card border border-beach-cardBorder hover:border-emerald-500/50 rounded-3xl p-8 space-y-6 transition duration-300 hover:-translate-y-2 relative group shadow-xl">
+                    <div class="w-14 h-14 rounded-2xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400 group-hover:scale-110 transition duration-300">
+                        <i data-lucide="footprints" class="w-7 h-7"></i>
+                    </div>
+
+                    <div class="space-y-2">
+                        <span class="text-xs font-bold uppercase tracking-wider text-emerald-400">Comece do Zero</span>
+                        <h3 class="font-heading font-extrabold text-2xl text-white">Nível Iniciante</h3>
+                        <p class="text-slate-300 text-sm leading-relaxed">
+                            Ideal para quem nunca jogou futevôlei. Aprenda sem pressão os fundamentos básicos para manter a bola no ar e perder o medo da rede.
+                        </p>
+                    </div>
+
+                    <ul class="space-y-3 text-sm text-slate-300 pt-2 border-t border-white/5">
+                        <li class="flex items-center gap-2.5">
+                            <i data-lucide="check" class="w-4 h-4 text-emerald-400"></i>
+                            <span>Recepção com peito e ombro</span>
+                        </li>
+                        <li class="flex items-center gap-2.5">
+                            <i data-lucide="check" class="w-4 h-4 text-emerald-400"></i>
+                            <span>Passe com a chapa do pé</span>
+                        </li>
+                        <li class="flex items-center gap-2.5">
+                            <i data-lucide="check" class="w-4 h-4 text-emerald-400"></i>
+                            <span>Deslocamento leve na areia fofa</span>
+                        </li>
+                        <li class="flex items-center gap-2.5">
+                            <i data-lucide="check" class="w-4 h-4 text-emerald-400"></i>
+                            <span>Regras básicas e contagem</span>
+                        </li>
+                    </ul>
+
+                    <a href="https://wa.me/5548988278141?text=Ol%C3%A1%20Jota!%20Sou%20iniciante%20no%20futev%C3%B4lei%20e%20gostaria%20de%20come%C3%A7ar%20as%20aulas!" target="_blank" class="block text-center w-full py-3 rounded-xl bg-white/5 hover:bg-emerald-500 hover:text-slate-950 font-black text-slate-200 font-bold text-sm transition">
+                        Começar no Iniciante
+                    </a>
+                </div>
+
+                <!-- Card 2: Intermediário (Destaque) -->
+                <div class="bg-gradient-to-b from-beach-card to-beach-deep border-2 border-cyan-500/70 rounded-3xl p-8 space-y-6 transition duration-300 hover:-translate-y-2 relative group shadow-2xl shadow-cyan-500/15">
+                    <div class="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-gradient-to-r from-cyan-400 via-teal-400 to-emerald-400 text-slate-950 text-[11px] font-black uppercase tracking-widest px-4 py-1 rounded-full shadow-md">
+                        Mais Procurado
+                    </div>
+
+                    <div class="w-14 h-14 rounded-2xl bg-cyan-500/20 border border-cyan-500/40 flex items-center justify-center text-cyan-400 group-hover:scale-110 transition duration-300">
+                        <i data-lucide="zap" class="w-7 h-7"></i>
+                    </div>
+
+                    <div class="space-y-2">
+                        <span class="text-xs font-bold uppercase tracking-wider text-cyan-400">Evolução & Ataque</span>
+                        <h3 class="font-heading font-extrabold text-2xl text-white">Intermediário</h3>
+                        <p class="text-slate-300 text-sm leading-relaxed">
+                            Para quem já tem base e quer parar de errar lances bobos. Foco em precisão, controle sob pressão e tática de jogo.
+                        </p>
+                    </div>
+
+                    <ul class="space-y-3 text-sm text-slate-300 pt-2 border-t border-white/5">
+                        <li class="flex items-center gap-2.5">
+                            <i data-lucide="check" class="w-4 h-4 text-cyan-400"></i>
+                            <span>Cabeceio direcionado ofensivo</span>
+                        </li>
+                        <li class="flex items-center gap-2.5">
+                            <i data-lucide="check" class="w-4 h-4 text-cyan-400"></i>
+                            <span>Pingo, largada curta e fundo</span>
+                        </li>
+                        <li class="flex items-center gap-2.5">
+                            <i data-lucide="check" class="w-4 h-4 text-cyan-400"></i>
+                            <span>Sincronia e comunicação de dupla</span>
+                        </li>
+                        <li class="flex items-center gap-2.5">
+                            <i data-lucide="check" class="w-4 h-4 text-cyan-400"></i>
+                            <span>Simulações de pontos reais</span>
+                        </li>
+                    </ul>
+
+                    <a href="https://wa.me/5548988278141?text=Ol%C3%A1%20Jota!%20J%C3%A1%20tenho%20uma%20no%C3%A7%C3%A3o%20de%20futev%C3%B4lei%20e%20quero%20evoluir%20para%20o%20n%C3%ADvel%20intermedi%C3%A1rio." target="_blank" class="block text-center w-full py-3.5 rounded-xl bg-gradient-to-r from-cyan-400 via-teal-400 to-emerald-400 hover:from-cyan-300 hover:to-emerald-300 text-slate-950 font-black text-sm shadow-lg shadow-cyan-500/25 transition">
+                        Evoluir Meu Jogo
+                    </a>
+                </div>
+
+                <!-- Card 3: Personal & Duplas -->
+                <div class="bg-beach-card border border-beach-cardBorder hover:border-emerald-500/50 rounded-3xl p-8 space-y-6 transition duration-300 hover:-translate-y-2 relative group shadow-xl">
+                    <div class="w-14 h-14 rounded-2xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400 group-hover:scale-110 transition duration-300">
+                        <i data-lucide="users" class="w-7 h-7"></i>
+                    </div>
+
+                    <div class="space-y-2">
+                        <span class="text-xs font-bold uppercase tracking-wider text-cyan-400">Individual ou Parceria</span>
+                        <h3 class="font-heading font-extrabold text-2xl text-white">Personal / Duplas</h3>
+                        <p class="text-slate-300 text-sm leading-relaxed">
+                            Treino VIP com 100% da atenção do professor voltada para você e seu parceiro(a). Repetição exaustiva dos movimentos certos.
+                        </p>
+                    </div>
+
+                    <ul class="space-y-3 text-sm text-slate-300 pt-2 border-t border-white/5">
+                        <li class="flex items-center gap-2.5">
+                            <i data-lucide="check" class="w-4 h-4 text-emerald-400"></i>
+                            <span>Diagnóstico detalhado dos vícios</span>
+                        </li>
+                        <li class="flex items-center gap-2.5">
+                            <i data-lucide="check" class="w-4 h-4 text-emerald-400"></i>
+                            <span>Alto volume de toques por minuto</span>
+                        </li>
+                        <li class="flex items-center gap-2.5">
+                            <i data-lucide="check" class="w-4 h-4 text-emerald-400"></i>
+                            <span>Ajuste de horário flexível</span>
+                        </li>
+                        <li class="flex items-center gap-2.5">
+                            <i data-lucide="check" class="w-4 h-4 text-emerald-400"></i>
+                            <span>Preparo físico específico na areia</span>
+                        </li>
+                    </ul>
+
+                    <a href="https://wa.me/5548988278141?text=Ol%C3%A1%20Jota!%20Gostaria%20de%20saber%20sobre%20as%20aulas%20VIP%20/%20Personal%20ou%20em%20Dupla%20no%20Vilarejo%20Beach." target="_blank" class="block text-center w-full py-3 rounded-xl bg-white/5 hover:bg-emerald-500 hover:text-slate-950 font-black text-slate-200 font-bold text-sm transition">
+                        Consultar Horários VIP
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION: VÍDEOS DOS TREINOS (AULAS EM AÇÃO) -->
+    <section id="videos" class="py-20 bg-gradient-to-b from-beach-deep via-beach-card/60 to-beach-deep border-y border-white/5 relative overflow-hidden">
+        <!-- Background Ambient Glow -->
+        <div class="absolute top-1/2 -left-40 w-96 h-96 bg-emerald-500/10 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="absolute top-1/3 -right-40 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center max-w-3xl mx-auto mb-16 space-y-3">
+                <div class="inline-flex items-center gap-2 text-emerald-400 text-sm font-bold uppercase tracking-widest">
+                    <i data-lucide="video" class="w-4 h-4"></i>
+                    Futevôlei na Prática
+                </div>
+                <h2 class="font-heading font-extrabold text-3xl sm:text-5xl text-white tracking-tight">
+                    Veja os Treinos em Ação na Areia
+                </h2>
+                <p class="text-slate-300 text-base sm:text-lg">
+                    Confira a movimentação, a dedicação e o clima contagiante das aulas com o professor <strong>João Pedro (Jota)</strong> no <strong>Vilarejo Beach Ingleses</strong>. Dê o play e venha treinar com a gente!
+                </p>
+            </div>
+
+            <!-- Videos Grid -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+                <!-- Video Card 1 -->
+                <div class="bg-beach-card border border-beach-cardBorder hover:border-emerald-500/50 rounded-3xl overflow-hidden shadow-2xl flex flex-col group transition duration-300 hover:-translate-y-1">
+                    <div class="relative bg-slate-950 aspect-[9/16] overflow-hidden flex items-center justify-center">
+                        <video class="w-full h-full object-cover group-video" controls playsinline preload="metadata">
+                            <source src="assets/videos/video-1.mp4" type="video/mp4">
+                            Seu navegador não suporta a tag de vídeo.
+                        </video>
+                        <div class="absolute top-3 left-3 bg-beach-deep/80 backdrop-blur-md px-2.5 py-1 rounded-full text-[11px] font-bold text-emerald-400 border border-white/10 flex items-center gap-1.5 pointer-events-none">
+                            <i data-lucide="flame" class="w-3.5 h-3.5 text-emerald-400"></i>
+                            <span>Fundamentos & Controle</span>
+                        </div>
+                    </div>
+                    <div class="p-4 space-y-2 flex-1 flex flex-col justify-between">
+                        <div>
+                            <h3 class="font-heading font-bold text-base text-white">Domínio & Postura</h3>
+                            <p class="text-xs text-slate-400 leading-relaxed mt-1">
+                                Exercícios para perder o medo da bola, amortecer no peito e manter a bola alta com precisão.
+                            </p>
+                        </div>
+                        <a href="https://wa.me/5548988278141?text=Ol%C3%A1%20Jota!%20Vi%20o%20v%C3%ADdeo%20de%20fundamentos%20no%20site%20e%20gostaria%20de%20marcar%20uma%20aula!" target="_blank" class="inline-flex items-center justify-center gap-1.5 text-xs font-bold text-emerald-400 hover:text-emerald-300 pt-2 border-t border-white/5 transition">
+                            <span>Quero aprender esse fundamento</span>
+                            <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Video Card 2 -->
+                <div class="bg-beach-card border border-beach-cardBorder hover:border-emerald-500/50 rounded-3xl overflow-hidden shadow-2xl flex flex-col group transition duration-300 hover:-translate-y-1">
+                    <div class="relative bg-slate-950 aspect-[9/16] overflow-hidden flex items-center justify-center">
+                        <video class="w-full h-full object-cover group-video" controls playsinline preload="metadata">
+                            <source src="assets/videos/video-2.mp4" type="video/mp4">
+                            Seu navegador não suporta a tag de vídeo.
+                        </video>
+                        <div class="absolute top-3 left-3 bg-beach-deep/80 backdrop-blur-md px-2.5 py-1 rounded-full text-[11px] font-bold text-cyan-400 border border-white/10 flex items-center gap-1.5 pointer-events-none">
+                            <i data-lucide="zap" class="w-3.5 h-3.5 text-cyan-400"></i>
+                            <span>Ataque & Pingo</span>
+                        </div>
+                    </div>
+                    <div class="p-4 space-y-2 flex-1 flex flex-col justify-between">
+                        <div>
+                            <h3 class="font-heading font-bold text-base text-white">Finalização de Ponto</h3>
+                            <p class="text-xs text-slate-400 leading-relaxed mt-1">
+                                Variação de ataque na rede: pingo curto, fundo de quadra e cabeceio com direção estratégica.
+                            </p>
+                        </div>
+                        <a href="https://wa.me/5548988278141?text=Ol%C3%A1%20Jota!%20Vi%20o%20v%C3%ADdeo%20de%20ataque%20e%20pingo%20no%20site%20e%20quero%20evoluir%20meu%20ataque!" target="_blank" class="inline-flex items-center justify-center gap-1.5 text-xs font-bold text-cyan-400 hover:text-cyan-300 pt-2 border-t border-white/5 transition">
+                            <span>Quero aprimorar meu ataque</span>
+                            <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Video Card 3 -->
+                <div class="bg-beach-card border border-beach-cardBorder hover:border-emerald-500/50 rounded-3xl overflow-hidden shadow-2xl flex flex-col group transition duration-300 hover:-translate-y-1">
+                    <div class="relative bg-slate-950 aspect-[9/16] overflow-hidden flex items-center justify-center">
+                        <video class="w-full h-full object-cover group-video" controls playsinline preload="metadata">
+                            <source src="assets/videos/video-3.mp4" type="video/mp4">
+                            Seu navegador não suporta a tag de vídeo.
+                        </video>
+                        <div class="absolute top-3 left-3 bg-beach-deep/80 backdrop-blur-md px-2.5 py-1 rounded-full text-[11px] font-bold text-cyan-400 border border-white/10 flex items-center gap-1.5 pointer-events-none">
+                            <i data-lucide="activity" class="w-3.5 h-3.5 text-cyan-400"></i>
+                            <span>Dinâmica de Quadra</span>
+                        </div>
+                    </div>
+                    <div class="p-4 space-y-2 flex-1 flex flex-col justify-between">
+                        <div>
+                            <h3 class="font-heading font-bold text-base text-white">Ritmo & Posicionamento</h3>
+                            <p class="text-xs text-slate-400 leading-relaxed mt-1">
+                                Treino completo com simulações de rally real, movimentação rápida na areia e sintonia de dupla.
+                            </p>
+                        </div>
+                        <a href="https://wa.me/5548988278141?text=Ol%C3%A1%20Jota!%20Gostei%20muito%20da%20din%C3%A2mica%20de%20treino%20que%20vi%20no%20v%C3%ADdeo!%20Quero%20agendar%20uma%20aula." target="_blank" class="inline-flex items-center justify-center gap-1.5 text-xs font-bold text-cyan-400 hover:text-cyan-300 pt-2 border-t border-white/5 transition">
+                            <span>Treinar ritmo de jogo</span>
+                            <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Video Card 4 -->
+                <div class="bg-beach-card border border-beach-cardBorder hover:border-emerald-500/50 rounded-3xl overflow-hidden shadow-2xl flex flex-col group transition duration-300 hover:-translate-y-1">
+                    <div class="relative bg-slate-950 aspect-[9/16] overflow-hidden flex items-center justify-center">
+                        <video class="w-full h-full object-cover group-video" controls playsinline preload="metadata">
+                            <source src="assets/videos/video-4.mp4" type="video/mp4">
+                            Seu navegador não suporta a tag de vídeo.
+                        </video>
+                        <div class="absolute top-3 left-3 bg-beach-deep/80 backdrop-blur-md px-2.5 py-1 rounded-full text-[11px] font-bold text-emerald-400 border border-white/10 flex items-center gap-1.5 pointer-events-none">
+                            <i data-lucide="sun" class="w-3.5 h-3.5 text-cyan-400"></i>
+                            <span>Vibe Vilarejo Beach</span>
+                        </div>
+                    </div>
+                    <div class="p-4 space-y-2 flex-1 flex flex-col justify-between">
+                        <div>
+                            <h3 class="font-heading font-bold text-base text-white">Treino & Resenha</h3>
+                            <p class="text-xs text-slate-400 leading-relaxed mt-1">
+                                A energia única da Praia dos Ingleses: esporte, saúde, superação e amizade dentro e fora da quadra.
+                            </p>
+                        </div>
+                        <a href="https://wa.me/5548988278141?text=Ol%C3%A1%20Jota!%20Quero%20fazer%20parte%20das%20aulas%20no%20Vilarejo%20Beach!" target="_blank" class="inline-flex items-center justify-center gap-1.5 text-xs font-bold text-emerald-400 hover:text-emerald-300 pt-2 border-t border-white/5 transition">
+                            <span>Garantir minha vaga na turma</span>
+                            <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Call to action button under videos -->
+            <div class="mt-12 text-center">
+                <a href="https://wa.me/5548988278141?text=Ol%C3%A1%20Jota!%20Vi%20os%20v%C3%ADdeos%20das%20suas%20aulas%20no%20site%20e%20fiquei%20muito%20animado(a)!%20Como%20fa%C3%A7o%20para%20marcar%20minha%20aula%20experimental%3F" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-3 bg-gradient-to-r from-emerald-400 via-teal-400 to-cyan-400 hover:from-emerald-300 hover:to-cyan-300 text-slate-950 font-black text-base px-8 py-4 rounded-2xl shadow-xl shadow-emerald-500/25 transition transform hover:-translate-y-1">
+                    <i data-lucide="calendar-check" class="w-5 h-5"></i>
+                    <span>Quero Treinar Assim! Agendar Aula Experimental</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION: LOCALIZAÇÃO - VILAREJO BEACH INGLESES -->
+    <section id="local" class="py-20 bg-beach-card/30 border-y border-white/5 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <div class="lg:col-span-6 space-y-6">
+                    <div class="inline-flex items-center gap-2 text-emerald-400 text-sm font-bold uppercase tracking-widest">
+                        <i data-lucide="map-pin" class="w-4 h-4"></i>
+                        Arena Oficial de Treinamento
+                    </div>
+
+                    <h2 class="font-heading font-extrabold text-3xl sm:text-4xl lg:text-5xl text-white tracking-tight leading-tight">
+                        Vilarejo Beach <br><span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-teal-300 to-cyan-400">Ingleses • Norte da Ilha</span>
+                    </h2>
+
+                    <p class="text-slate-300 text-base sm:text-lg leading-relaxed">
+                        Nossas aulas acontecem no <strong>Vilarejo Beach</strong>, uma das arenas esportivas de areia mais completas e acolhedoras dos Ingleses e do Norte de Florianópolis.
+                    </p>
+
+                    <div class="space-y-4 pt-2">
+                        <div class="flex items-start gap-4 p-4 rounded-2xl bg-beach-card border border-white/5">
+                            <div class="w-10 h-10 rounded-xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400 shrink-0">
+                                <i data-lucide="sun" class="w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-white text-base">Areia Tratada e Nivelada</h3>
+                                <p class="text-sm text-slate-400">Menos impacto para suas articulações, prevenindo lesões e proporcionando excelente impulsão.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4 p-4 rounded-2xl bg-beach-card border border-white/5">
+                            <div class="w-10 h-10 rounded-xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400 shrink-0">
+                                <i data-lucide="lightbulb" class="w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-white text-base">Iluminação Profissional Noturna</h3>
+                                <p class="text-sm text-slate-400">Treine com total conforto e visibilidade mesmo após o trabalho ou no entardecer.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4 p-4 rounded-2xl bg-beach-card border border-white/5">
+                            <div class="w-10 h-10 rounded-xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400 shrink-0">
+                                <i data-lucide="coffee" class="w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-white text-base">Estrutura Completa & Resenha</h3>
+                                <p class="text-sm text-slate-400">Vestiários, duchas, área de descanso coberta e ambiente propício para fazer novas amizades.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pt-2 flex flex-wrap gap-4">
+                        <a href="https://maps.google.com/?q=Vilarejo+Beach+Ingleses+Florianopolis" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 bg-beach-card border border-white/20 hover:border-emerald-400 text-white font-bold px-6 py-3.5 rounded-xl transition">
+                            <i data-lucide="navigation" class="w-4 h-4 text-emerald-400"></i>
+                            <span>Ver no Google Maps</span>
+                        </a>
+
+                        <a href="https://wa.me/5548988278141?text=Ol%C3%A1%20Jota!%20Como%20fa%C3%A7o%20para%20chegar%20no%20Vilarejo%20Beach%20para%20a%20aula%3F" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-6 py-3.5 rounded-xl transition">
+                            <i data-lucide="message-circle" class="w-4 h-4"></i>
+                            <span>Pedir Localização no Zap</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Interactive Location Card / Map Mock -->
+                <div class="lg:col-span-6">
+                    <div class="bg-beach-card border border-beach-cardBorder rounded-3xl p-6 sm:p-8 space-y-6 shadow-2xl relative overflow-hidden">
+                        
+                        <!-- Map Preview Header -->
+                        <div class="flex items-center justify-between pb-4 border-b border-white/10">
+                            <div class="flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-xl bg-red-500/20 text-red-400 flex items-center justify-center">
+                                    <i data-lucide="map-pinned" class="w-5 h-5"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-white text-base">Vilarejo Beach Arena</h4>
+                                    <p class="text-xs text-slate-400">Praia dos Ingleses, Florianópolis - SC</p>
+                                </div>
+                            </div>
+                            <span class="px-2.5 py-1 rounded-full bg-emerald-500/20 text-emerald-400 text-xs font-bold">Aberto para Aulas</span>
+                        </div>
+
+                        <!-- Stylized Map Box -->
+                        <div class="relative w-full h-72 rounded-2xl overflow-hidden border border-white/10 bg-slate-900 group">
+                            <!-- Background map visual / aerial preview -->
+                            <div class="absolute inset-0 bg-[radial-gradient(#1e304f_1px,transparent_1px)] [background-size:16px_16px] opacity-70"></div>
+                            
+                            <div class="absolute inset-0 flex flex-col items-center justify-center p-6 text-center space-y-3">
+                                <div class="w-16 h-16 rounded-full bg-emerald-500/20 border-2 border-emerald-400 flex items-center justify-center text-emerald-400 animate-bounce shadow-xl">
+                                    <i data-lucide="map-pin" class="w-8 h-8"></i>
+                                </div>
+                                <h4 class="font-heading font-extrabold text-xl text-white">Vilarejo Beach</h4>
+                                <p class="text-xs text-slate-300 max-w-xs">
+                                    Ingleses, Norte da Ilha - Florianópolis<br>
+                                    Fácil acesso, estacionamento e quadras de areia de alto padrão.
+                                </p>
+                                <a href="https://maps.google.com/?q=Vilarejo+Beach+Ingleses+Florianopolis" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 bg-gradient-to-r from-emerald-400 to-cyan-400 hover:from-emerald-300 hover:to-cyan-300 text-slate-950 font-black text-xs px-4 py-2 rounded-lg transition shadow-md">
+                                    <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+                                    Abrir Rotas & GPS
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-2 gap-4 text-xs">
+                            <div class="p-3 rounded-xl bg-white/5 border border-white/5">
+                                <span class="text-slate-400 block">Bairro:</span>
+                                <strong class="text-white text-sm">Praia dos Ingleses</strong>
+                            </div>
+                            <div class="p-3 rounded-xl bg-white/5 border border-white/5">
+                                <span class="text-slate-400 block">Região:</span>
+                                <strong class="text-white text-sm">Norte da Ilha de Floripa</strong>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION: BENEFÍCIOS DO FUTEVÔLEI -->
+    <section id="beneficios" class="py-20 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16 space-y-3">
+                <div class="inline-flex items-center gap-2 text-emerald-400 text-sm font-bold uppercase tracking-widest">
+                    <i data-lucide="heart-pulse" class="w-4 h-4"></i>
+                    Saúde & Estilo de Vida
+                </div>
+                <h2 class="font-heading font-extrabold text-3xl sm:text-5xl text-white tracking-tight">
+                    Por Que Você Deve Começar Hoje
+                </h2>
+                <p class="text-slate-300 text-base sm:text-lg">
+                    Mais do que aprender um esporte novo, você vai transformar seu condicionamento físico, postura e energia.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Ben 1 -->
+                <div class="bg-beach-card border border-beach-cardBorder p-6 rounded-2xl space-y-4 hover:border-emerald-400/40 transition">
+                    <div class="w-12 h-12 rounded-xl bg-red-500/10 border border-red-500/30 flex items-center justify-center text-red-400">
+                        <i data-lucide="flame" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="font-heading font-bold text-lg text-white">Alta Queima Calórica</h3>
+                    <p class="text-xs sm:text-sm text-slate-400 leading-relaxed">
+                        A resistência natural da areia faz você gastar de 600 a 800 calorias por hora de treino intenso e dinâmico.
+                    </p>
+                </div>
+
+                <!-- Ben 2 -->
+                <div class="bg-beach-card border border-beach-cardBorder p-6 rounded-2xl space-y-4 hover:border-emerald-400/40 transition">
+                    <div class="w-12 h-12 rounded-xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400">
+                        <i data-lucide="activity" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="font-heading font-bold text-lg text-white">Fortalecimento do Core</h3>
+                    <p class="text-xs sm:text-sm text-slate-400 leading-relaxed">
+                        Abdômen, lombar, glúteos e pernas trabalham 100% do tempo para estabilizar seu corpo a cada salto e toque.
+                    </p>
+                </div>
+
+                <!-- Ben 3 -->
+                <div class="bg-beach-card border border-beach-cardBorder p-6 rounded-2xl space-y-4 hover:border-cyan-400/40 transition">
+                    <div class="w-12 h-12 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400">
+                        <i data-lucide="shield" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="font-heading font-bold text-lg text-white">Zero Impacto Articular</h3>
+                    <p class="text-xs sm:text-sm text-slate-400 leading-relaxed">
+                        A areia amortece os impactos nos joelhos e coluna, permitindo treino pesado com segurança máxima.
+                    </p>
+                </div>
+
+                <!-- Ben 4 -->
+                <div class="bg-beach-card border border-beach-cardBorder p-6 rounded-2xl space-y-4 hover:border-emerald-400/40 transition">
+                    <div class="w-12 h-12 rounded-xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400">
+                        <i data-lucide="smile" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="font-heading font-bold text-lg text-white">Desestresse & Amizade</h3>
+                    <p class="text-xs sm:text-sm text-slate-400 leading-relaxed">
+                        Desconecte das telas, sinta a vibe praiana de Floripa e conheça pessoas que compartilham da mesma paixão esportiva.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION: SIMULADOR DE AGENDAMENTO / FORMULÁRIO INTERATIVO -->
+    <section id="agendamento" class="py-20 bg-gradient-to-b from-beach-deep via-beach-card/80 to-beach-deep border-y border-white/5 relative">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center space-y-3 mb-10">
+                <span class="inline-block px-4 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-xs font-bold uppercase tracking-wider">
+                    Agendamento Rápido em 1 Minuto
+                </span>
+                <h2 class="font-heading font-extrabold text-3xl sm:text-4xl text-white">
+                    Simule e Agende sua Aula com o Jota
+                </h2>
+                <p class="text-slate-300 text-sm sm:text-base">
+                    Escolha seus objetivos abaixo e envie direto para o WhatsApp do professor João Pedro com a mensagem pronta!
+                </p>
+            </div>
+
+            <!-- Booking Card -->
+            <div class="bg-beach-card border border-beach-cardBorder rounded-3xl p-6 sm:p-10 shadow-2xl space-y-8">
+                
+                <form id="bookingForm" class="space-y-6">
+                    <!-- Step 1: Nível -->
+                    <div class="space-y-3">
+                        <label class="block text-sm font-bold text-slate-200">
+                            1. Qual é a sua experiência atual com futevôlei?
+                        </label>
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                            <label class="cursor-pointer border border-white/10 rounded-2xl p-4 flex items-center gap-3 hover:border-emerald-400 transition has-[:checked]:border-emerald-400 has-[:checked]:bg-emerald-500/10">
+                                <input type="radio" name="userLevel" value="Nunca joguei (Iniciante do Zero)" checked class="text-emerald-400 focus:ring-emerald-400">
+                                <div>
+                                    <div class="font-bold text-sm text-white">Iniciante Zero</div>
+                                    <div class="text-xs text-slate-400">Nunca joguei</div>
+                                </div>
+                            </label>
+
+                            <label class="cursor-pointer border border-white/10 rounded-2xl p-4 flex items-center gap-3 hover:border-emerald-400 transition has-[:checked]:border-emerald-400 has-[:checked]:bg-emerald-500/10">
+                                <input type="radio" name="userLevel" value="Básico / Altinha de Praia" class="text-emerald-400 focus:ring-emerald-400">
+                                <div>
+                                    <div class="font-bold text-sm text-white">Básico</div>
+                                    <div class="text-xs text-slate-400">Jogo altinha / noções</div>
+                                </div>
+                            </label>
+
+                            <label class="cursor-pointer border border-white/10 rounded-2xl p-4 flex items-center gap-3 hover:border-emerald-400 transition has-[:checked]:border-emerald-400 has-[:checked]:bg-emerald-500/10">
+                                <input type="radio" name="userLevel" value="Intermediário / Quero aperfeiçoar" class="text-emerald-400 focus:ring-emerald-400">
+                                <div>
+                                    <div class="font-bold text-sm text-white">Intermediário</div>
+                                    <div class="text-xs text-slate-400">Quero aperfeiçoar</div>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Step 2: Formato e Turno -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                        <div class="space-y-3">
+                            <label class="block text-sm font-bold text-slate-200">
+                                2. Formato de interesse:
+                            </label>
+                            <select id="userFormat" class="w-full bg-beach-deep border border-white/10 rounded-xl px-4 py-3.5 text-slate-200 focus:border-emerald-400 focus:outline-none text-sm font-medium">
+                                <option value="Aula em Grupo / Turma">Aula em Grupo / Turma</option>
+                                <option value="Aula Individual / VIP (Personal)">Aula Individual / VIP (Personal)</option>
+                                <option value="Aula em Dupla (Você + Parceiro)">Aula em Dupla (Você + Parceiro)</option>
+                            </select>
+                        </div>
+
+                        <div class="space-y-3">
+                            <label class="block text-sm font-bold text-slate-200">
+                                3. Melhor turno para treinar:
+                            </label>
+                            <select id="userShift" class="w-full bg-beach-deep border border-white/10 rounded-xl px-4 py-3.5 text-slate-200 focus:border-emerald-400 focus:outline-none text-sm font-medium">
+                                <option value="Manhã">Manhã (Começar o dia com energia)</option>
+                                <option value="Tarde">Tarde (Fim de tarde / Pôr do sol)</option>
+                                <option value="Noite">Noite (Sob os refletores)</option>
+                                <option value="Qualquer horário flexível">Qualquer horário flexível</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Step 3: Nome do Aluno -->
+                    <div class="space-y-2">
+                        <label for="userName" class="block text-sm font-bold text-slate-200">
+                            4. Seu Nome:
+                        </label>
+                        <input type="text" id="userName" placeholder="Ex: Lucas Silva" class="w-full bg-beach-deep border border-white/10 rounded-xl px-4 py-3.5 text-slate-200 placeholder-slate-500 focus:border-emerald-400 focus:outline-none text-sm">
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div class="pt-4">
+                        <button type="button" id="btnSendWhatsapp" class="w-full flex items-center justify-center gap-3 bg-gradient-to-r from-emerald-400 via-teal-400 to-cyan-400 hover:from-emerald-300 hover:to-cyan-300 text-slate-950 font-black text-base sm:text-lg py-4 px-8 rounded-2xl shadow-xl shadow-emerald-500/25 transition transform hover:-translate-y-0.5">
+                            <i data-lucide="message-circle" class="w-6 h-6"></i>
+                            <span>Enviar Pré-Agendamento via WhatsApp</span>
+                        </button>
+                        <p class="text-center text-xs text-slate-400 mt-2">
+                            Você será direcionado diretamente para o WhatsApp oficial do professor <strong>(48) 98827-8141</strong>.
+                        </p>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION: FAQ (PERGUNTAS FREQUENTES) -->
+    <section id="duvidas" class="py-20 relative">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center space-y-3 mb-14">
+                <div class="inline-flex items-center gap-2 text-emerald-400 text-sm font-bold uppercase tracking-widest">
+                    <i data-lucide="help-circle" class="w-4 h-4"></i>
+                    Tire Suas Dúvidas
+                </div>
+                <h2 class="font-heading font-extrabold text-3xl sm:text-4xl text-white">
+                    Perguntas Frequentes
+                </h2>
+                <p class="text-slate-300 text-sm sm:text-base">
+                    Tudo o que você precisa saber antes de pisar na quadra de areia.
+                </p>
+            </div>
+
+            <!-- FAQ Items -->
+            <div class="space-y-4">
+                
+                <details class="group bg-beach-card border border-beach-cardBorder rounded-2xl overflow-hidden transition">
+                    <summary class="flex items-center justify-between p-5 cursor-pointer font-bold text-white text-base sm:text-lg hover:text-emerald-400 transition select-none list-none">
+                        <span>Nunca joguei futebol nem futevôlei, posso fazer aula?</span>
+                        <i data-lucide="chevron-down" class="w-5 h-5 text-emerald-400 transition-transform duration-300 group-open:rotate-180 shrink-0 ml-2"></i>
+                    </summary>
+                    <div class="px-5 pb-5 text-slate-300 text-sm leading-relaxed border-t border-white/5 pt-3">
+                        Com certeza! A maioria dos alunos começa do absoluto zero. Minha metodologia é focada na paciência e em exercícios progressivos, para você ganhar coordenação e controle de bola sem constrangimento.
+                    </div>
+                </details>
+
+                <details class="group bg-beach-card border border-beach-cardBorder rounded-2xl overflow-hidden transition">
+                    <summary class="flex items-center justify-between p-5 cursor-pointer font-bold text-white text-base sm:text-lg hover:text-emerald-400 transition select-none list-none">
+                        <span>O que devo levar e qual roupa usar na aula?</span>
+                        <i data-lucide="chevron-down" class="w-5 h-5 text-emerald-400 transition-transform duration-300 group-open:rotate-180 shrink-0 ml-2"></i>
+                    </summary>
+                    <div class="px-5 pb-5 text-slate-300 text-sm leading-relaxed border-t border-white/5 pt-3">
+                        Venha com roupas leves esportivas (sunga, shorts de praia, bermuda leve ou top/legging). Joga-se descalço na areia (ou com sapatilha de areia se preferir). Traga sua garrafinha de água, protetor solar e boné/viseira para aulas diurnas. Nós fornecemos as bolas profissionais e materiais de treino!
+                    </div>
+                </details>
+
+                <details class="group bg-beach-card border border-beach-cardBorder rounded-2xl overflow-hidden transition">
+                    <summary class="flex items-center justify-between p-5 cursor-pointer font-bold text-white text-base sm:text-lg hover:text-emerald-400 transition select-none list-none">
+                        <span>Onde fica o Vilarejo Beach exatamente?</span>
+                        <i data-lucide="chevron-down" class="w-5 h-5 text-emerald-400 transition-transform duration-300 group-open:rotate-180 shrink-0 ml-2"></i>
+                    </summary>
+                    <div class="px-5 pb-5 text-slate-300 text-sm leading-relaxed border-t border-white/5 pt-3">
+                        O Vilarejo Beach está localizado no bairro dos Ingleses, no Norte da Ilha em Florianópolis. É um espaço de fácil acesso com excelente estrutura de areia, estacionamento e comodidade. Ao mandar uma mensagem, envio a rota exata no mapa!
+                    </div>
+                </details>
+
+                <details class="group bg-beach-card border border-beach-cardBorder rounded-2xl overflow-hidden transition">
+                    <summary class="flex items-center justify-between p-5 cursor-pointer font-bold text-white text-base sm:text-lg hover:text-emerald-400 transition select-none list-none">
+                        <span>Quais são os dias e horários das aulas?</span>
+                        <i data-lucide="chevron-down" class="w-5 h-5 text-emerald-400 transition-transform duration-300 group-open:rotate-180 shrink-0 ml-2"></i>
+                    </summary>
+                    <div class="px-5 pb-5 text-slate-300 text-sm leading-relaxed border-t border-white/5 pt-3">
+                        Temos turmas e horários flexíveis pela manhã, tarde e à noite sob iluminação artificial. Entre em contato diretamente pelo WhatsApp <strong>(48) 98827-8141</strong> para alinharmos a melhor grade para a sua rotina!
+                    </div>
+                </details>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION: FOOTER & BIG CTA -->
+    <footer class="bg-beach-card border-t border-white/10 relative overflow-hidden pt-16 pb-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+            
+            <!-- Banner CTA inside Footer -->
+            <div class="bg-gradient-to-r from-emerald-950 via-teal-950 to-slate-900 border border-emerald-500/30 rounded-3xl p-8 sm:p-12 text-center text-white space-y-6 shadow-2xl relative overflow-hidden">
+                <div class="absolute -right-10 -bottom-10 w-64 h-64 bg-white/10 rounded-full blur-2xl pointer-events-none"></div>
+                
+                <h3 class="font-heading font-black text-2xl sm:text-4xl max-w-2xl mx-auto leading-tight">
+                    Pronto para pisar na areia e evoluir no futevôlei com o Jota?
+                </h3>
+                <p class="text-emerald-200 text-base sm:text-lg max-w-xl mx-auto font-medium">
+                    A primeira aula é o primeiro passo para você se apaixonar pelo esporte mais alegre da ilha de Florianópolis.
+                </p>
+                <div class="pt-2 flex flex-col sm:flex-row items-center justify-center gap-4">
+                    <a href="https://wa.me/5548988278141?text=Ol%C3%A1%20Jo%C3%A3o%20Pedro!%20Quero%20agendar%20minha%20aula%20de%20futev%C3%B4lei%20no%20Vilarejo%20Beach." target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-beach-deep hover:bg-slate-900 text-white font-extrabold px-8 py-4 rounded-2xl shadow-xl transition transform hover:scale-105">
+                        <i data-lucide="message-circle" class="w-5 h-5 text-emerald-400"></i>
+                        <span>Chamar no WhatsApp (48) 98827-8141</span>
+                    </a>
+                    <a href="mailto:tiagojoaopedrocorrea@gmail.com" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-white/20 hover:bg-white/30 backdrop-blur text-white font-bold px-6 py-4 rounded-2xl transition">
+                        <i data-lucide="mail" class="w-5 h-5"></i>
+                        <span>tiagojoaopedrocorrea@gmail.com</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Footer Details & Columns -->
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 pt-6 border-b border-white/5 pb-10 text-sm">
+                
+                <!-- Col 1 -->
+                <div class="space-y-4 md:col-span-2">
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-emerald-400 to-cyan-400 flex items-center justify-center text-slate-950 font-black">
+                            JP
+                        </div>
+                        <span class="font-heading font-black text-xl text-white">JP FUTEVÔLEI</span>
+                    </div>
+                    <p class="text-slate-400 text-sm max-w-md leading-relaxed">
+                        Aulas de futevôlei ministradas por <strong>João Pedro Cagliari Corrêa Ornellas (Jota / jp.tzl)</strong> no <strong>Vilarejo Beach</strong>, Ingleses, Norte da Ilha - Florianópolis. Metodologia moderna, prática e acolhedora.
+                    </p>
+                </div>
+
+                <!-- Col 2: Contatos Rápidos -->
+                <div class="space-y-3">
+                    <h4 class="font-bold text-white uppercase tracking-wider text-xs">Contatos Diretos</h4>
+                    <ul class="space-y-2 text-slate-400">
+                        <li class="flex items-center gap-2">
+                            <i data-lucide="phone" class="w-4 h-4 text-emerald-400"></i>
+                            <a href="tel:+5548988278141" class="hover:text-white transition">(48) 98827-8141</a>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i data-lucide="mail" class="w-4 h-4 text-cyan-400"></i>
+                            <a href="mailto:tiagojoaopedrocorrea@gmail.com" class="hover:text-white transition break-all">tiagojoaopedrocorrea@gmail.com</a>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i data-lucide="instagram" class="w-4 h-4 text-pink-400"></i>
+                            <span class="text-slate-300 font-medium">@jp.tzl (Jota)</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Col 3: Localização -->
+                <div class="space-y-3">
+                    <h4 class="font-bold text-white uppercase tracking-wider text-xs">Onde Treinamos</h4>
+                    <ul class="space-y-2 text-slate-400">
+                        <li class="flex items-start gap-2">
+                            <i data-lucide="map-pin" class="w-4 h-4 text-cyan-400 mt-1 shrink-0"></i>
+                            <span>Vilarejo Beach<br>Ingleses, Norte da Ilha<br>Florianópolis - SC</span>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Copyright -->
+            <div class="flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
+                <p>&copy; <span id="year"></span> JP Futevôlei • João Pedro Cagliari Corrêa Ornellas. Todos os direitos reservados.</p>
+                <p class="flex items-center gap-1">
+                    Feito com <i data-lucide="heart" class="w-3.5 h-3.5 text-red-500 fill-red-500"></i> para a melhor resenha de Floripa
+                </p>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- FLOATING WHATSAPP BUTTON -->
+    <a href="https://wa.me/5548988278141?text=Ol%C3%A1%20Jo%C3%A3o%20Pedro!%20Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20as%20aulas%20de%20futev%C3%B4lei%20no%20Vilarejo%20Beach." target="_blank" rel="noopener noreferrer" aria-label="Falar no WhatsApp com o Professor João Pedro" class="fixed bottom-6 right-6 z-50 flex items-center gap-3 bg-emerald-500 hover:bg-emerald-400 text-white p-3.5 sm:px-5 sm:py-3.5 rounded-full shadow-2xl shadow-emerald-500/50 transition transform hover:scale-110 group">
+        <div class="relative">
+            <i data-lucide="message-circle" class="w-7 h-7 fill-white"></i>
+            <span class="absolute -top-1 -right-1 flex h-3 w-3">
+                <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-75"></span>
+                <span class="relative inline-flex rounded-full h-3 w-3 bg-cyan-400"></span>
+            </span>
+        </div>
+        <span class="font-extrabold text-sm hidden sm:inline-block">Fale com o Jota</span>
+    </a>
+
+    <!-- Custom Javascript -->
+    <script src="assets/js/main.js"></script>
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
+
